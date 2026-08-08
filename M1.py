@@ -6,7 +6,7 @@ st.set_page_config(page_title="Portfolio | Wishyawan Fuangfung", page_icon= "ðŸ“
 
 col1, col2 = st.columns([1, 2.5])
 with col1:
-    st.image("https://www.pinterest.com/pin/shuffles--17803361025269224/", width=220)
+    st.image("https://www.pinterest.com/pin/shuffles--17803361025269224/.png", width=220)
 with col2:
     st.title("Wishyawan Fuangfung (Aom)")
     st.subheader("Student grade 9")
