@@ -6,13 +6,10 @@ st.set_page_config(page_title="Portfolio | Wishyawan Fuangfung", page_icon= "ðŸ“
 
 col1, col2 = st.columns([1, 2.5])
 with col1:
-    pass
+    st.image("https://www.pinterest.com/pin/shuffles--17803361025269224/", width=220)
 with col2:
     st.title("Wishyawan Fuangfung (Aom)")
     st.subheader("Student grade 9")
-    st.write("""
-    omcoim,fmivnu9kefkonzcxmsdasd
-    """)
 
 st.divider()
 
@@ -46,8 +43,6 @@ with tab1:
     with col_p4:
         with st.container(border=True):
             st.markdown("#### Operation smile")
-            st.write("operation smile member event 1 for 2 years")
-            st.write("ISLC member in the present")
 
     st.write("- **Director")
     st.write("- School show experience for 4 years")
