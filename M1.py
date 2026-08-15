@@ -49,8 +49,8 @@ with tab1:
             st.write("Piano: Currenly learning piano Yamaha grade 6 and attended maany show events")
     with col_p5:
         with st.container(border=True):
-            st.markdown("###Operation smile")
-            st.wite("Part of Operation smile from Y7-present")
+            st.markdown("### Operation smile")
+            st.write("Part of Operation smile from Y7-present")
             st.write("Helped organise events at school")
     with col_p6:
         with st.container(border=True):
