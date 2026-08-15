@@ -29,6 +29,7 @@ with tab1:
         with st.container(border=True):
             st.markdown("#### School show")
             st.write("Roles in previous years: Sea Chorus, Young Anna, Belle")
+            st.write("partiipated in Little mermaid, Frozen and Beauty and the beast")
             st.write("Role in present year: Full time Student director")
     with col_p2:
         with st.container(border=True):
@@ -46,6 +47,16 @@ with tab1:
             st.markdown("#### Piano and Singing shows")
             st.write("Singing: many show events as well as competitions")
             st.write("Piano: Currenly learning piano Yamaha grade 6 and attended maany show events")
+    with col_p5:
+        with st.container(border=True):
+            st.markdown("###Operation smile")
+            st.wite("Part of Operation smile from Y7-present")
+            st.write("Helped organise events at school")
+    with col_p6:
+        with st.container(border=True):
+            st.markdown("### Model United Nations")
+            st.write("Participted in internal event in the WHO committee")
+            st.write("In the future: attend 1 external event, 1 more internal event, and Chair")
 
 
 with tab2:
