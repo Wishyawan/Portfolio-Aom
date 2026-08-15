@@ -9,45 +9,44 @@ with col1:
     st.image("https://i.pinimg.com/736x/5a/1a/ff/5a1aff946125bacc436779ab7c685563.jpg", width=220)
 with col2:
     st.title("Wishyawan Fuangfung (Aom)")
-    st.subheader("Student grade 9")
+    st.subheader("Grade 9 student (Freshman year)")
 
 st.divider()
 
-tab1, tab2, tab3, tab4 = st.tabs(["🎓💼 Experience and Activities","🛠️🧠 skills", "🎮🕹️ minigames", "📞📱 contact information"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["🎓💼 Experience and Activities","🛠️🧠 skills", "🎮🕹️ minigames", "🌟🎉Achievements", "📞📱 contact information"])
 
 with tab1:
     st.markdown("### 🎓 Experience")
-    st.write("- grade 9 student")
-    st.write("- lead actor and singer in school show")
+    st.write("- Grade 9 student from Amnuaysilpa school in freshman year studying IGCSE and A levels")
+    st.write("- Many achievemnts in different categories suh as: Sports and Music")
 
     st.markdown("<br>", unsafe_allow_html=True)
 
     st.markdown("### 💼 Activities")
 
-    col_p1, col_p2, col_p3, col_p4 = st.columns(4)
+    col_p1, col_p2, col_p3, col_p4, col_p5, col_p6= st.columns(6)
     with col_p1:
         with st.container(border=True):
-            st.markdown("#### School show and director")
-            st.write("Roles: Sea Chorus, Young Anna, Belle")
-            st.write("Director trainee in the present")
+            st.markdown("#### School show")
+            st.write("Roles in previous years: Sea Chorus, Young Anna, Belle")
+            st.write("Role in present year: Full time Student director")
     with col_p2:
         with st.container(border=True):
-            st.markdown("#### TedxAmnuaysilpa")
-            st.write("Tedx speaker: Paradox of Selfishness")
-            st.write("MC: introduce and create flow to the show")
+            st.markdown("#### Duke of Edinburg")
+            st.write("4 activities to complete: Adventurous trip, Skills, Fundraising, Sports")
+            st.write("Students participating in duk ewill have to log in all their activities each week and go on an adventurous trip to complete the bronze level")
+            st.write("This year: Completing the Silver level of Duke of Edinburg")
     with col_p3:
         with st.container(border=True):
-            st.markdown("#### spark")
-            st.write("Spark member for 3 years")
-            st.write("Spark leader to various events in the present")
+            st.markdown("#### Spark")
+            st.write("Previous years: Part of spark, supporting aand oing on trips to help people in need")
+            st.write("This year: Leader of Spark whith duties such as: plan trips, fundraising, doing events in school")
     with col_p4:
         with st.container(border=True):
-            st.markdown("#### Operation smile")
+            st.markdown("#### Piano and Singing shows")
+            st.write("Singing: many show events as well as competitions")
+            st.write("Piano: Currenly learning piano Yamaha grade 6 and attended maany show events")
 
-    st.write("- **Director")
-    st.write("- School show experience for 4 years")
-    st.write("- **student council member")
-    st.write("- 3 year experience being oart of the council team")
 
 with tab2:
     st.markdown("### 🛠️🧠 skills")
