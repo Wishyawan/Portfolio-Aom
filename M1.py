@@ -66,4 +66,4 @@ with tab2:
     st.write("- piano")
     st.write("- golf")
     st.write("- drums")
-
+    st.write("- basic coding")
